@@ -1,3 +1,4 @@
 #!/bin/bash
-# Stop any running Flask applications
-pkill -f "python3 app.py" || true
+
+# Kill any running Flask processes
+pkill -f 'flask run'
