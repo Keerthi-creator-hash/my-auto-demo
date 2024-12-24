@@ -1,4 +1,7 @@
 #!/bin/bash
-# Update system packages and install Python
-sudo apt update -y
-sudo apt install -y python3 python3-pip
+
+# Navigate to the application directory
+cd /var/www/my-app
+
+# Install dependencies listed in requirements.txt
+pip3 install -r requirements.txt
